@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--etiqueta de lenguaje para utilizar diferentes tipos de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--por medio de la etiqueta la haga compatible con el navegador edge-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Taller ajedrez</title>
+</head>
+<body>
+    <header>
+            <h1>AJEDREZ</h1>
+    </header> 
+    <section>
+        <div id="tabla">
+            <div class="centrarTexto">
+                <input type="number" id="filas" min="8" placeholder="Ingrese filas">
+                <br> <br>
+                <input type="number" id="columnas" min="4" placeholder="Ingrese columnas">
+                <br> <br>
+                <button onclick="generarTabla();">Generar Tabla de Ajedrez</button>
+                <input type="button" id="limpiar" value="Limpiar" onclick="limpiar()"/>
+                <br> <br>
+                <div id="resultado"></div>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
